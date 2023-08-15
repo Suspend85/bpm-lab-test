@@ -1,0 +1,23 @@
+.footer {
+    min-height: 100px;
+    margin-top: auto;
+    background: var(--black-color);
+    &__inner {
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 18px;
+    }
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--text-color);
+        &:before{
+            content: '\00a9';
+            padding-right: 5px;
+        }
+    }
+}
